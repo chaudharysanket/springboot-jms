@@ -1,0 +1,12 @@
+
+jms:
+  url: tcp://127.0.0.1:61616
+  username: admin
+  password: admin
+  queue: DEV.TEST.JMS
+
+logging:
+  level:
+    org:
+      apache:
+        camel: DEBUG
